@@ -34,7 +34,23 @@ function addNumbers(num1, num2 = 10){
   return total;
 }
 
-//23.4
+//23.4 tamplete string `` (jetake jantan back ticks name)
+
+let firstName = `Justin`;
+let lastName = `TimberLake`;
+
+let hisOcupation = `${firstName} ${lastName} is a singer.`;
+console.log(hisOcupation);
+
+let porerLine =  `hi
+this is ${firstName} ${lastName}
+I'm a singer.
+nicer line dekho...
+mericay thaki >.<`
+
+console.log(porerLine);
+
+
 
 
 
