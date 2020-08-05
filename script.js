@@ -1,7 +1,10 @@
+//23.1
+
 const hubby = `Omar Sunny` // const is fixed, cant change it later
 
 console.log(hubby);
 
+//23.2
 
 const realAge = [12, 34, 67, 45, 25, 97];
 console.log(realAge);
@@ -22,3 +25,16 @@ for (let i = 0; i < 10; i++) { //let use korle var er value baire theke access k
   console.log(i);
   
 }
+
+//23.3 Default value in para meter
+
+function addNumbers(num1, num2 = 10){
+//  num2 = undefined||122;
+  const total = num1 + num2;
+  return total;
+}
+
+//23.4
+
+
+
