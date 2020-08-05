@@ -62,6 +62,8 @@ let doubleIt = num => num*2
 
 let addNums = (x , y) => x +y;
 
+let justFive = () => 5;
+
 let doSomeMath = (num1, num2) =>{
   const add = num1 + num2;
   const diffrenceValue = num1 - num2;
@@ -73,7 +75,15 @@ const doubleItValue = doubleIt(5);
 console.log(doubleItValue);
 
 
-//23.6
+//23.6 how to add arrays using 'concat' and 
+
+// added several arrays in one array using'concat'
+let schoolFrnd = [12, 23, 34, 45, 56];
+let areaFrnd = [13, 24, 32, 32, 21];
+
+let allFriends = schoolFrnd.concat(1000).concat(areaFrnd).concat(`olodama`, `rasengan`)
+
+console.log(allFriends);
 
 
 
