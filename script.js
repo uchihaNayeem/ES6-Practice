@@ -17,7 +17,7 @@ console.log(actorsHollywood);
 actorsHollywood.age = 288;
 console.log(actorsHollywood);
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) { //let use korle var er value baire theke access kora jabena BLOCK Scope er jonno
   const element = i;
   console.log(i);
   
