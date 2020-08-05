@@ -50,6 +50,33 @@ mericay thaki >.<`
 
 console.log(porerLine);
 
+//23.5 arrow fungtion multiple parems func body
+
+// function doubleIt(num){
+//   return num*2;
+// }
+
+
+
+let doubleIt = num => num*2
+
+let addNums = (x , y) => x +y;
+
+let doSomeMath = (num1, num2) =>{
+  const add = num1 + num2;
+  const diffrenceValue = num1 - num2;
+  const total = add * diffrenceValue;
+  return total
+}
+
+const doubleItValue = doubleIt(5);
+console.log(doubleItValue);
+
+
+//23.6
+
+
+
 
 
 
