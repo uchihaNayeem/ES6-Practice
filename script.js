@@ -75,7 +75,7 @@ const doubleItValue = doubleIt(5);
 console.log(doubleItValue);
 
 
-//23.6 how to add arrays using 'concat' and 
+//23.6 how to add arrays using 'concat' and  'Spred out or '... in javascript' 
 
 // added several arrays in one array using'concat'
 let schoolFrnd = [12, 23, 34, 45, 56];
@@ -85,7 +85,28 @@ let allFriends = schoolFrnd.concat(1000).concat(areaFrnd).concat(`olodama`, `ras
 
 console.log(allFriends);
 
+// let allFriends2 = [schoolFrnd, 1000, areaFrnd, `olodama`, `rasengan` ]
 
+//addmultiple array usine '...'
+let allFriends2 = [...schoolFrnd, 1000, `olodama`, ...areaFrnd]
+
+console.log(allFriends2);
+
+
+// another example
+
+let business = 650;
+let minister = 550;
+let shocib = 450;
+
+let maximum = Math.max(business, minister, shocib);
+console.log(maximum);
+
+// another exmple using ...
+
+let inCorer = [450, 550, 455, 850];
+let maxInCorer = Math.max(...inCorer);
+console.log(maxInCorer);
 
 
 
