@@ -16,3 +16,9 @@ const actorsHollywood = {name: `Tom Hanks`, age: 18};
 console.log(actorsHollywood);
 actorsHollywood.age = 288;
 console.log(actorsHollywood);
+
+for (let i = 0; i < 10; i++) {
+  const element = i;
+  console.log(i);
+  
+}
