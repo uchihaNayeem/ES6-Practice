@@ -126,8 +126,9 @@ class student{
 
 const student1 = new student(01, `olodama`);
 const student2 = new student(02, `rasengan`);
+const student3 = new student(03, `KonohaMaru`);
 
-console.log(student1, student2);
+console.log(student1, student2, student3);
 
 
 
