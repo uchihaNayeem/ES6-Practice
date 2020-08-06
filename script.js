@@ -156,7 +156,31 @@ console.log(employee5);
 
 
 
-//23.7 
+//23.8 inheritens (shera jinish)
 
+// oop te aita lage
+//inheritance polimorphisom incapsulation agular DEfination must lagebe
+
+class Parent{
+  constructor(){
+    this.fatherName = `Minato`;
+  }
+}
+
+
+
+class Child extends Parent{
+  constructor(cName, cAge){
+    super()
+    this.name = cName;
+    this.age = cAge;
+  }
+}
+
+const firstChild = new Child(`naruto`, 12);
+const secondChild = new Child(`Kurama`, 120);
+
+console.log(firstChild);
+console.log(secondChild);
 
 
