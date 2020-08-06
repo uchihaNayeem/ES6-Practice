@@ -175,12 +175,39 @@ class Child extends Parent{
     this.name = cName;
     this.age = cAge;
   }
+
+  getFullName(){
+    return this.name + ' ' + this.age + ' ' + this.fatherName
+  }//class er vitor function lilha jay
 }
 
 const firstChild = new Child(`naruto`, 12);
 const secondChild = new Child(`Kurama`, 120);
+const thirdChild = new Child(`Kubee`, 1220);
 
 console.log(firstChild);
 console.log(secondChild);
 
 
+console.log(secondChild.getFullName());
+console.log(thirdChild.getFullName());
+
+
+//23.9 destructuring 
+
+const person = {name: `rasel`, age: 20, occupasion: `ISP`, address: `bandar`, relation: `single`, friends:[`omar`, `piyash`]}
+
+//Q. kivabe easily object theke multiple property call korbo?
+//ans:
+
+const {name, salary, address} = person; //ai style a property ke variable a rakha jay
+
+console.log(name, salary, address);
+
+// for arrays
+
+const marks = [`one`, 123, `sixteen`, 12, 50, 60]
+
+const {six} = marks;
+
+console.log(six);
