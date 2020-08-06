@@ -131,8 +131,32 @@ const student3 = new student(03, `KonohaMaru`);
 console.log(student1, student2, student3);
 
 
+// again Practice class an dconstructor for create awesome objects
+class kdsGarmentsEmployee{
 
 
+  constructor(eId, eName, eAddress, ePossition){
+    this.id = eId;
+    this.name = eName
+    this.address = eAddress
+    this.possition =ePossition
+    this.validity = `2020 - 2021`
+  }
+
+}
+
+const employee1 = new kdsGarmentsEmployee(201001, `Rabeya`, `dokpoll, ctg`, `worker`);
+const employee2 = new kdsGarmentsEmployee(201002, `Bokeya`, `dokpoll, ctg`, `worker`);
+const employee3 = new kdsGarmentsEmployee(201003, `Bill kees Ara`, `dokpoll, ctg`, `MD`);
+const employee4 = new kdsGarmentsEmployee(201004, `Barek`, `dokpoll, ctg`, `DGM`);
+const employee5 = new kdsGarmentsEmployee(201005, `Jalali set`, `dokpoll, ctg`, `Supervisior`);
+
+console.log(employee5);
+
+
+
+
+//23.7 
 
 
 
