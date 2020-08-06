@@ -208,6 +208,34 @@ console.log(name, salary, address);
 
 const marks = [`one`, 123, `sixteen`, 12, 50, 60]
 
-const {six} = marks;
+const [six, two, ...restArrays] = marks;
 
-console.log(six);
+console.log(six, two);
+
+console.log(restArrays);
+
+// how to access in nested object property
+
+const complesObject = {
+  name: `abc`,
+  info:{
+    address: `kalabagan`,
+    leader: `Tiger Leader`
+  }
+}
+
+const {leader} = complesObject.info
+
+console.log(leader);
+
+
+const garmentEmployee = {
+  name: `karim`,
+  info:{
+    address: `CTG`,
+    post: `bandar`,
+  }
+}
+
+const {post} = garmentEmployee.info //inside conts its the property, you cant give random names
+console.log(post) 
