@@ -88,7 +88,7 @@ console.log(allFriends);
 // let allFriends2 = [schoolFrnd, 1000, areaFrnd, `olodama`, `rasengan` ]
 
 //addmultiple array usine '...'
-let allFriends2 = [...schoolFrnd, 1000, `olodama`, ...areaFrnd]
+let allFriends2 = [...schoolFrnd, 1000, `olodama`, ...areaFrnd] // '...' aita kaaj holo arrey er vitorer element nije kaj kora
 
 console.log(allFriends2);
 
@@ -102,11 +102,34 @@ let shocib = 450;
 let maximum = Math.max(business, minister, shocib);
 console.log(maximum);
 
-// another exmple using ...
+// another exmple using "..."
 
 let inCorer = [450, 550, 455, 850];
 let maxInCorer = Math.max(...inCorer);
 console.log(maxInCorer);
+
+
+// 23.7 class constructor for objects
+
+//Q keno aita use korbo? ans: jokhon same property onek object lage tokhon
+
+class student{
+
+  constructor(sId, sName){
+    this.id = sId;
+    this.name = sName;
+    this.schoolName = `Konoha Gakure`
+  }
+
+
+}
+
+const student1 = new student(01, `olodama`);
+const student2 = new student(02, `rasengan`);
+
+console.log(student1, student2);
+
+
 
 
 
